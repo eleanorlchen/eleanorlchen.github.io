@@ -1,5 +1,5 @@
 .ia-container {
-	width: 650px;
+	width: 695px;
 	margin: 20px auto;
 	overflow: hidden;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
@@ -9,7 +9,7 @@
 .ia-container figure {
     position: absolute;
 	top: 0;
-	left: 50px; /* width of visible piece */
+	left: 65px; /* width of visible piece */
 	width: 500px;
     box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
 	-webkit-transition: all 0.3s ease-in-out;
@@ -33,7 +33,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50px; /* just cover visible part */
+	width: 65px; /* just cover visible part */
 	height: 100%;
 	cursor: pointer;
 	border: 0;
@@ -57,7 +57,7 @@
     -o-transition: all 0.7s ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-	left: 335px;
+	left: 500px;
 }
 
 .ia-container figcaption {
