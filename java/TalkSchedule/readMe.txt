@@ -1,5 +1,19 @@
 This program creates a list of talks chosen by the maximum number of talks from 
-a text file. To run the program, you type "java scheduleTest" in terminal. The file 
+a text file. 
+
+Imagine you are a conference organizer and you are tasked with scheduling the largest possible subset from
+a set of talks all in the same room. Each talk in the set has a given start time and end time. These times
+cannot change. No talks that have times that overlap can be scheduled in the same room. For the sake of this
+assignment assume that one talk can begin instantly upon completion of the previous talk. Consider the
+example below with three talks in the set:
+Talks:
+1. Fred Flinstone 9:00AM-11AM
+2. Barney Rubble 10:30AM-4PM
+3. Bam Bam Rubble 1PM-1:15PM
+The optimal schedule (the one that schedules the most talks) in this example would be to schedule Fred's talk
+and Bam Bam's talk.
+
+To run the program, you type "java scheduleTest" in terminal. The file 
 format in each line is: first title then whitespace or tab, four digit 
 startTime, whiteSpace or tab, and four digit endTime. Both startTime and 
 endTime are in 24 hour time format. The title was only one word, as they were 
