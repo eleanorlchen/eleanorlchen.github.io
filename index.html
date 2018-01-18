@@ -22,37 +22,36 @@ body, html {
     background-size: cover;
 }
 
-.text1 {
-  position:absolute;
-  right:300px;
-  bottom:250px
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.text2 {
-  position:absolute;
-  right:300px;
-  bottom:200px
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-.text3 {
-  position:absolute;
-  right:300px;
-  bottom:150px
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 </style>
 </head>
 <body link="blue">
 <div class="bg">
-<div class="text1">
-   <p><a href="Portfolio.html">Portfolio</a></p>
-</div>
-<div class="text2">
-   <p><a href="process.html">Art Process</a></p>
-</div>
-<div class="text3">
-   <p><a href="javacode.html">Java Code</a></p>
-</div>
+	<div class="topnav">
+		<a href="javacode.html">Java Code</a>
+    	<a href="process.html">Art Process</a>
+   		<a href="Portfolio.html">Portfolio</a>
+    </div>
 </div>
 <div class="cloud x1"></div>
 <!-- Time for multiple clouds to dance around -->
