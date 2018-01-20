@@ -11,6 +11,9 @@ body{
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-container{
 position:relative}
+li,a{
+	font-size: 18px;
+}
 
 
 .crop {
