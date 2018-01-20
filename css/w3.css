@@ -3,8 +3,6 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
-audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
-audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 a{background-color:transparent;-webkit-text-decoration-skip:objects}
 a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 dfn{font-style:italic}mark{background:#ff0;color:#000}
@@ -237,9 +235,9 @@ h1{
 	padding:20px 20px 10px 20px;
 	font-size:34px;
 	color:#333;
-    text-shadow:1px 1px 1px #fff;
-	text-align:left;
+    text-shadow:1px 1px 1px #fff;	
 	font-weight:400;
+    position:relative;
     text-align:center;
 }
 h1 span{
@@ -249,4 +247,27 @@ h1 span{
     font-style: italic;
 	color:#b2891b;
 	padding-top:10px;
+}
+.topnav a {
+	height: 100%;
+    float: right;    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: TTNorms,Helvetica Neue,Arial,sans-serif;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	height: 100%;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	height: 100%;
+    background-color: #4CAF50;
+    color: white;
 }
