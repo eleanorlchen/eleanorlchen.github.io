@@ -15,7 +15,7 @@ body, html {
     background-image: url("images/ProfSite.jpg");
 
     /* Full height */
-    height: 440%;
+    height: 450%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -49,12 +49,57 @@ body, html {
     color: white;
 }
 
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
 </style>
 </head>
 <body link="blue">
 <div class="bg">
 	<div class="topnav">
-   		<a href="photo.html">PHOTOGRAPHY</a>
+		<div class="dropdown">
+   			<a>PHOTOGRAPHY</a>
+   			<div class="dropdown-content">
+   			    <a href="photo.html">PHOTOS</a>
+    			<a href="panorama.html">PANORAMA</a>
+    		</div>
+   		</div>
 		<a href="javacode.html">JAVA CODE</a>
     	<a href="process.html">ART PROCESS</a>
    		<a href="Portfolio.html">PORTFOLIO</a>
