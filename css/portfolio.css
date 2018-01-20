@@ -2,7 +2,7 @@
 body{
 	font-family: TTNorms,Helvetica Neue,Arial,sans-serif;	
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 18px;
 	color: #391b27;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -11,6 +11,7 @@ body{
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-display-container{
 position:relative}
+
 
 .crop {
  height: 600px;
