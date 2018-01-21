@@ -3,24 +3,39 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/home.css" />
+	<script type="text/javascript">
+        // Wait for the page to load first
+        window.onload = function() {
+
+          //Get a reference to the link on the page
+          // with an id of "aboutMe" or "leftDown" or "rightDonw"
+          var a = document.getElementById("aboutMe");
+          var left = document.getElementById("leftDown");
+          var right = document.getElementById("rightDown");
+          //Set code to run when the link is clicked
+          // by assigning a function to "onclick"
+          a.onclick = left.onclick = right.onclick =  function() {
+            document.body.scrollTop = document.body.scrollHeight/4;
+            return false;
+          }
+
+	}
+	</script>
 <style>
 .bg {
     /* The image used */
     background-image: url("images/ProfSite.jpg");
-
     /* Full height */
     height: 450%;
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
 </style>
 </head>
 <body link="blue">
+
 <div class="bg">
 	<div class="topnav">
 		<div class="dropdown">
@@ -33,21 +48,22 @@
 		<a href="javacode.html">JAVA CODE</a>
     	<a href="process.html">ART PROCESS</a>
    		<a href="Portfolio.html">PORTFOLIO</a>
-   		<a href="#About">ABOUT ME</a>
+   		<a href="#" id="aboutMe">ABOUT ME</a>
       </div>
 </div>
 <div class="left">
-	<a href="#About">
+	<a href="#" id="leftDown">
 	<img src="images/downArrow.png" style="width:50px">
 	</a>
 </div>
 <div class="right">
-	<a href="#About">
+	<a href="#" id="rightDown">
 	<img src="images/downArrow.png" style="width:50px">
 	</a>
 </div>
  <div class="verticalNext">
 	<a name="About"></a>
 </div>
+
 </body>
 </html>
