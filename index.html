@@ -3,24 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/home.css" />
-	<script type="text/javascript">
-        // Wait for the page to load first
-        window.onload = function() {
-
-          //Get a reference to the link on the page
-          // with an id of "aboutMe" or "leftDown" or "rightDonw"
-          var a = document.getElementById("aboutMe");
-          var left = document.getElementById("leftDown");
-          var right = document.getElementById("rightDown");
-          //Set code to run when the link is clicked
-          // by assigning a function to "onclick"
-          a.onclick = left.onclick = right.onclick =  function() {
-            document.body.scrollTop = document.body.scrollHeight/4;
-            return false;
-          }
-
-	}
-	</script>
 <style>
 .bg {
     /* The image used */
@@ -48,16 +30,16 @@
 		<a href="javacode.html">JAVA CODE</a>
     	<a href="process.html">ART PROCESS</a>
    		<a href="Portfolio.html">PORTFOLIO</a>
-   		<a href="#" id="aboutMe">ABOUT ME</a>
+   		<a href="#About" id="aboutMe">ABOUT ME</a>
       </div>
 </div>
 <div class="left">
-	<a href="#" id="leftDown">
+	<a href="#About" id="leftDown">
 	<img src="images/downArrow.png" style="width:50px">
 	</a>
 </div>
 <div class="right">
-	<a href="#" id="rightDown">
+	<a href="#About" id="rightDown">
 	<img src="images/downArrow.png" style="width:50px">
 	</a>
 </div>
