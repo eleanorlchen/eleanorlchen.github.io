@@ -6,7 +6,6 @@
 	<script type="text/javascript">
         // Wait for the page to load first
         window.onload = function() {
-
           //Get a reference to the link on the page
           // with an id of "aboutMe" or "leftDown" or "rightDonw"
           var a = document.getElementById("aboutMe");
@@ -15,12 +14,11 @@
           //Set code to run when the link is clicked
           // by assigning a function to "onclick"
           a.onclick = left.onclick = right.onclick =  function() {
-
            var myDiv = document.getElementById('backgroudImage');
            let scrollHeight = Math.max(
 		    myDiv.offsetHeight, myDiv.clientHeight,
 			);
-           document.body.scrollTop = scrollHeight/4;
+            document.body.scrollTop = scrollHeight/4;
             return false;
           }
 
@@ -52,7 +50,13 @@
    		</div>
 		<a href="javacode.html">JAVA CODE</a>
     	<a href="process.html">ART PROCESS</a>
-   		<a href="Portfolio.html">PORTFOLIO</a>
+    	<div class="dropdown">
+		   	<a>PORTFOLIO</a>
+		   	<div class="dropdown-content">
+		   		<a href="Portfolio.html">VISUAL ART</a>
+		    	<a href="design.html">DESIGN</a>
+		 	</div>
+   		</div>
    		<a href="#About" id="aboutMe">ABOUT ME</a>
       </div>
 </div>
