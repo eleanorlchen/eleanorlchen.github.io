@@ -1,12 +1,12 @@
-body, html {
+body, html {   
     height: 100%;
     margin: 0;
     overflow-y: scroll;
-	font-family: TTNorms,Helvetica Neue,Arial,sans-serif;
+    font-family: TTNorms,Helvetica Neue,Arial,sans-serif;
 }
 
 .topnav a {
-	height: 100%;
+    height: 100%;
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -42,7 +42,7 @@ body, html {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ddd;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -57,7 +57,7 @@ body, html {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -68,8 +68,9 @@ body, html {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-.verticalNext{
-	vertical-align: 250%;
+
+.verticalNext{		
+	vertical-align: middle;
 }
 /* Left and right down buttons */
 .left, .right {
