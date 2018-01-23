@@ -72,11 +72,17 @@ body, html {
 .verticalNext{		
 	vertical-align: middle;
 }
+
+.verticalTop{		
+	vertical-align: top;
+}
+
+
 /* Left and right down buttons */
 .left, .right {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: auto;
   padding: 20px;
   margin-top: -22px;
@@ -102,6 +108,40 @@ body, html {
 }
 /* Position the "next button" to the right */
 .right a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Left up and right up buttons */
+.leftUp, .rightUp {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 20px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.leftUp {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* Position the "right down button" to the right */
+.rightUp {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.leftUp a{
+  text-decoration: none;
+  color: white;
+}
+/* Position the "next button" to the right */
+.rightUp a{
   text-decoration: none;
   color: white;
 }
