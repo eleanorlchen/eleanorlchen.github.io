@@ -116,7 +116,7 @@ body, html {
 .leftUp, .rightUp {
   cursor: pointer;
   position: absolute;
-  top: 45%;
+  top: 50%;
   width: auto;
   padding: 20px;
   margin-top: -22px;
