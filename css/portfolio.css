@@ -15,13 +15,17 @@ li,a{
 	font-size: 18px;
 }
 
-
 .crop {
  height: 600px;
  width: 900px;
  overflow: hidden;
 }
+
 .mySlides img {
+ height: auto;
+ width: 400px;
+}
+.mySlides a img {
  height: auto;
  width: 400px;
 }
