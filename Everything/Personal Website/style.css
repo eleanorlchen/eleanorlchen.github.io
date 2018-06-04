@@ -1,3 +1,11 @@
+@font-face {
+	font-family: Zeyada;
+	src:url(fonts/Zeyada.ttf);
+}
+@font-face {
+	font-family: Gunny Rewritten;
+	src:url(fonts/gnyrwn971.ttf);
+}
 body {
   margin: 0;
   font-family: Zeyada;
